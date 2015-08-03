@@ -1,12 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
+gem 'battleships' # if you are using Ben's gem
 gem 'sinatra'
-gem 'capybara'
 
 group :development, :test do
-	gem 'capybara'
-	gem 'launchy'
-	gem 'rspec'
-	gem 'rspec-sinatra'
-	gem 'shotgun'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'rspec'
+  gem 'rspec-sinatra'
+  gem 'shotgun'
 end
